@@ -6,6 +6,8 @@ use Illuminate\Database\Eloquent\Model;
 
 class Reply extends Model
 {
+    protected $guarded = [];
+
     /**
      * Defines eloquent relation ship between replies and users
      * A reply belongs to a user
