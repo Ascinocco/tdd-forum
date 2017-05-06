@@ -40,6 +40,9 @@
                </form>
             </div>
         </div>
+    
+    @else
+        <p class="text-center"><a href="{{ route('login') }}">Sign in</a> to post a reply.</p>
     @endif
 </div>
 @endsection
